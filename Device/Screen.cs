@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Device
 {
-    internal class Screen:Device
+    abstract internal class Screen:Device
     {
         int refreshRate, diagonal;
         string type, resolution;

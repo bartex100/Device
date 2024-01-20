@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Device
 {
-    internal class Device
+    abstract internal class Device
     {
-        int height, width;
+        public int height, width;
         string company;
         public int Height { get { return height; } set { height = value; } }
         public int Width { get { return width; } set { width = value; } }

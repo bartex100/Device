@@ -8,8 +8,10 @@ namespace Device
 {
     internal class TV:Screen
     {
+
         Pen pen= new Pen(Color.SeaGreen, 5);
-        public void drawTV()
+        public Graphics g;
+        public void drawTV(int x,int y)
         {
 
         }
