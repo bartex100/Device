@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace Device
 {
-    internal class TV
+    internal class TV:Screen
     {
+        Pen pen= new Pen(Color.SeaGreen, 5);
+        public void drawTV()
+        {
+
+        }
     }
 }

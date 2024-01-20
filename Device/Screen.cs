@@ -10,5 +10,6 @@ namespace Device
     {
         int refreshRate, diagonal;
         string type, resolution;
+        
     }
 }
