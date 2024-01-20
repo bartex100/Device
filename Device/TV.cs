@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace Device
 {
-    internal class Screen:Device
+    internal class TV
     {
-        int refreshRate, diagonal;
-        string type, resolution;
     }
 }
